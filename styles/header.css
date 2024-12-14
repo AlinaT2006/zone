@@ -20,17 +20,15 @@
   gap: 60px;
 }
 
-
 .header__nav-list-link {
-    font-weight: 500;
-    color: var(--whiteTone);
-    font-size: 14px;
-    transition: 0.3s;
-  }
-  
-  .header__nav-list-link:hover {
-    background: var(--btn);
-    padding: 12px 25px;
-    border-radius: 5px;
-  }
-  
+  font-weight: 500;
+  color: var(--whiteTone);
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.header__nav-list-link:hover {
+  background: var(--btn);
+  padding: 12px 25px;
+  border-radius: 5px;
+}

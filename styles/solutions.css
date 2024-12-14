@@ -1,0 +1,67 @@
+.solutions {
+  background: url(../img/Blur.png) no-repeat top / cover;
+}
+
+
+.solutions__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.solutions__desc {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 546px;
+  width: 100%;
+}
+
+.solutions__desc-title {
+  font-size: 58px;
+  font-weight: 700;
+  background: var(--gradient);
+  -webkit-background-clip: text; /* Обрезка фона только текстом */
+  -webkit-text-fill-color: transparent; /* Прозрачный цвет текста */
+}
+
+.solutions__desc-text {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--grey);
+  line-height: 30px;
+}
+
+.solutions__desc-btns {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.solutions__desc-video {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.solutions__desc-btn {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--whiteTone);
+  padding: 20px 40px;
+  background: var(--btn);
+  border-radius: 5px;
+}
+
+.solutions__desc-video {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--whiteTone);
+}
+
+.solutions__img-item {
+  max-width: 746px;
+  width: 100%;
+}
+
