@@ -65,3 +65,40 @@
   width: 100%;
 }
 
+@media screen and (max-width: 860px) {
+  .solutions__wrap {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .solutions__desc-title {
+    text-align: center;
+  }
+  .solutions__desc-text {
+    text-align: center;
+  }
+  .solutions__desc-btns {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .solutions__desc-title {
+    font-size: 40px;
+  }
+  .solutions__desc-text {
+    font-size: 12px;
+  }
+  .solutions__desc-btn {
+    padding: 15px 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .solutions__desc-title {
+    font-size: 30px;
+  }
+  .solutions__desc-btn {
+    padding: 10px 20px;
+  }
+}
+

@@ -1,32 +1,34 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-    outline: none;
-    font-family: 'DM Sans';
-}
-
-:root {
-    --bg: #111827;
-    --btn: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
-    --whiteTone: #F9FAFB;
-    --white: #fff;
-    --fontRubik: 'Rubik';
-    --gradient: linear-gradient(89.83deg, #2563EB 0.11%, #D946EF 58.65%);
-    --grey: #E5E7EB;
-}
-
-.container {
-    margin: 0 auto;
-    padding: 0 15px;
-    width: 100%;
-    height: 100%;
-    max-width: 1210px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  font-family: "DM Sans";
 }
 
 body {
-    background: var(--bg);
+  background: var(--bg);
+  min-width: 320px;
 }
 
+:root {
+  --bg: #111827;
+  --white: #fff;
+  --fontRubik: "Rubik";
+  --whiteTone: #f9fafb;
+  --grey: #e5e7eb;
+  --btn: linear-gradient(90.35deg, #2563eb 0.36%, #d946ef 201.02%);
+  --gradient: linear-gradient(89.83deg, #2563eb 0.11%, #d946ef 58.65%);
+  --cards: linear-gradient(268.12deg,rgba(254, 254, 255, 0.032) -11.04%,rgba(255, 255, 255, 0.018) 104.89%);
+  --icon4: linear-gradient(180deg, #92efc3 0%, #2f8f5b 100%);
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+  height: 100%;
+  max-width: 1210px;
+}

@@ -32,3 +32,38 @@
   padding: 12px 25px;
   border-radius: 5px;
 }
+
+@media screen and (max-width: 780px) {
+  .header__nav {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .header__nav-list {
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .header__nav-list {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (hover: hover) {
+  .header__nav-list-link:hover {
+    background: var(--btn);
+    padding: 12px 25px;
+    border-radius: 5px;
+  }
+}
+
+@media (hover: none) {
+  .header__nav-list-link:active {
+    background: var(--btn);
+    padding: 12px 25px;
+    border-radius: 5px;
+  }
+}
