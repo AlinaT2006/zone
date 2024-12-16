@@ -11,6 +11,7 @@
 body {
   background: var(--bg);
   min-width: 320px;
+  min-height: 100vh;
 }
 
 :root {
@@ -21,8 +22,13 @@ body {
   --grey: #e5e7eb;
   --btn: linear-gradient(90.35deg, #2563eb 0.36%, #d946ef 201.02%);
   --gradient: linear-gradient(89.83deg, #2563eb 0.11%, #d946ef 58.65%);
-  --cards: linear-gradient(268.12deg,rgba(254, 254, 255, 0.032) -11.04%,rgba(255, 255, 255, 0.018) 104.89%);
+  --cards: linear-gradient(
+    268.12deg,
+    rgba(254, 254, 255, 0.032) -11.04%,
+    rgba(255, 255, 255, 0.018) 104.89%
+  );
   --icon4: linear-gradient(180deg, #92efc3 0%, #2f8f5b 100%);
+  --input: linear-gradient(180deg, rgba(254, 254, 255, 0.0348) 0%, rgba(255, 255, 255, 0.048) 100%);
 }
 
 .container {
@@ -30,5 +36,5 @@ body {
   padding: 0 15px;
   width: 100%;
   height: 100%;
-  max-width: 1210px;
+  max-width: 1200px;
 }

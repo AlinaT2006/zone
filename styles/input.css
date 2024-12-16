@@ -1,0 +1,73 @@
+.input {
+  margin: 60px 0 80px;
+}
+
+.input__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  box-shadow: 0px 22px 18px 0px #0000000d;
+  background: var(--cards);
+  padding: 50px 0 40px;
+  border-radius: 35px;
+}
+
+.input__desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.input__desc-title {
+  font-size: 42px;
+  font-weight: 700;
+  text-decoration-skip-ink: none;
+  color: var(--white);
+}
+
+.input__desc-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--white);
+}
+
+.input__wrap-form {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.input__wrap-form_email {
+  border: none;
+  border-radius: 70px;
+  height: 80px;
+  width: 860px;
+  padding-left: 40px;
+  background: var(--input);
+}
+.input__wrap-form_email::placeholder {
+  font-family: var(--fontRubik);
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--white);
+}
+
+.input__wrap-form_btn {
+  position: absolute;
+  right: 10px;
+  border: none;
+  background: var(--btn);
+  padding: 15px 50px;
+  border-radius: 70px;
+  cursor: pointer;
+  font-family: var(--fontRubik);
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

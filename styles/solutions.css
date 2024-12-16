@@ -1,13 +1,12 @@
-.solutions {
+/* .solutions {
   background: url(../img/Blur.png) no-repeat top / cover;
-}
+} */
 
 
 .solutions__wrap {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40px;
 }
 
 .solutions__desc {
@@ -61,7 +60,10 @@
 }
 
 .solutions__img-item {
-  max-width: 746px;
+  max-width: 630px;
+  width: 100%;
+}
+.solutions__img img {
   width: 100%;
 }
 
