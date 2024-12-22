@@ -1,5 +1,42 @@
 .input {
   margin: 60px 0 80px;
+  position: relative;
+  z-index: 5;
+}
+
+.blur18,
+.blur19,
+.blur20 {
+  position: absolute; /* Позиционирование относительно родителя */
+  z-index: -1; /* Размытие будет находиться позади контента */
+  filter: blur(200px); /* Размытие фона */
+}
+
+.blur18 {
+  max-width: 300px;
+  width: 100%;
+  height: 360px;
+  background: linear-gradient(166.77deg, #2f79cb -29%, #af51c5 141.21%);
+  top: 5%;
+  left: 10%;
+}
+
+.blur19 {
+  max-width: 250px;
+  width: 100%;
+  height: 340px;
+  background: linear-gradient(180deg, #BC7FD9 0%, #923283 100%);
+  top: 15%;
+  left: 40%;
+}
+
+.blur20 {
+  max-width: 250px;
+  width: 100%;
+  height: 340px;
+  background: linear-gradient(180deg, #8684ED 0%, #4247BB 100%);
+  top: 10%;
+  right: 10%;
 }
 
 .input__wrap {
@@ -138,9 +175,7 @@
     font-size: 10px;
   }
   .input__wrap-form_email {
-   
     padding-left: 10px;
-   
   }
   .input__wrap-form_email {
     width: 200px;

@@ -1,8 +1,49 @@
-/* .solutions {
-  background: url(../img/Blur.png) no-repeat top / cover;
-} */
+.solutions {
+  z-index: 5;
+  position: relative;
+}
 
+.blur1, .blur2, .blur3, .blur4 {
+  position: absolute;  /* Позиционирование относительно родителя */
+  z-index: -1;         /* Размытие будет находиться позади контента */
+  filter: blur(200px); /* Размытие фона */
+}
 
+.blur1 {
+  max-width: 320px;
+  width: 100%;
+  height: 300px;
+  background: rgba(29, 78, 216, 0.45); 
+  top: 5%;
+  left: 0;
+}
+
+.blur2 {
+  max-width: 130px;
+  width: 100%;
+  height: 100px;
+  background: rgba(217, 70, 239, 1);
+  top: 5%;
+  right: 30%;
+}
+
+.blur3 {
+  max-width: 340px;
+  width: 100%;
+  height: 280px;
+  background: rgba(81, 65, 218, 1);
+  top: 5%;
+  right: 0;
+}
+
+.blur4 {
+  max-width: 80px;
+  width: 100%;
+  height: 30px;
+  background: rgba(175, 81, 197, 1);
+  top: 100%;
+  left: 20px;
+} 
 .solutions__wrap {
   display: flex;
   align-items: center;

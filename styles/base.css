@@ -12,6 +12,17 @@ body {
   background: var(--bg);
   min-width: 320px;
   min-height: 100vh;
+  position: relative;
+}
+
+.blur {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: rgba(17, 24, 39, 0.1);
+  backdrop-filter: blur(200px);
+  overflow-x: hidden;
 }
 
 :root {
@@ -28,7 +39,11 @@ body {
     rgba(255, 255, 255, 0.018) 104.89%
   );
   --icon4: linear-gradient(180deg, #92efc3 0%, #2f8f5b 100%);
-  --input: linear-gradient(180deg, rgba(254, 254, 255, 0.0348) 0%, rgba(255, 255, 255, 0.048) 100%);
+  --input: linear-gradient(
+    180deg,
+    rgba(254, 254, 255, 0.0348) 0%,
+    rgba(255, 255, 255, 0.048) 100%
+  );
 }
 
 .container {

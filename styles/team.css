@@ -1,5 +1,52 @@
 .team {
   padding: 50px 0 60px;
+  position: relative;
+  z-index: 5;
+}
+
+.blur14,
+.blur15,
+.blur16,
+.blur17 {
+  position: absolute; /* Позиционирование относительно родителя */
+  z-index: -1; /* Размытие будет находиться позади контента */
+  filter: blur(200px); /* Размытие фона */
+}
+
+.blur14 {
+  max-width: 250px;
+  width: 100%;
+  height: 340px;
+  background: rgba(217, 70, 239, 0.43);
+  top: 40%;
+  left: 10%;
+}
+
+.blur15 {
+  max-width: 250px;
+  width: 100%;
+  height: 340px;
+  background: rgba(81, 65, 218, 1);
+  top: 50%;
+  left: 20%;
+}
+
+.blur16 {
+  max-width: 300px;
+  width: 100%;
+  height: 360px;
+  background: rgba(29, 78, 216, 0.79);
+  top: 40%;
+  left: 40%;
+}
+
+.blur17 {
+  max-width: 250px;
+  width: 100%;
+  height: 340px;
+  background: rgba(217, 70, 239, 0.43);
+  top: 40%;
+  right: 0;
 }
 
 .team__desc {
