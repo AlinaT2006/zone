@@ -53,3 +53,12 @@ body {
   height: 100%;
   max-width: 1200px;
 }
+
+@media screen and (max-width: 700px) {
+  .blur-group {
+    display: none;
+  }
+  body {
+    background: url(../img/Bg.png);
+  }
+}
