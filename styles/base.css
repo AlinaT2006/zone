@@ -13,6 +13,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   position: relative;
+  overflow-x: hidden;
 }
 
 .blur {
@@ -23,6 +24,12 @@ body {
   background: rgba(17, 24, 39, 0.1);
   backdrop-filter: blur(200px);
   overflow-x: hidden;
+}
+
+.blur-group {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 :root {
@@ -54,7 +61,7 @@ body {
   max-width: 1200px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .blur-group {
     display: none;
   }
