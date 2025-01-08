@@ -95,6 +95,10 @@
   border-radius: 4px;
 }
 
+.img-item {
+  transition: transform 0.2s ease-out;
+} 
+
 @media screen and (max-width: 1040px) {
   .section__top {
     flex-direction: column-reverse;
