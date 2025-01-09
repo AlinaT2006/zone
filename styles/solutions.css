@@ -59,6 +59,7 @@
 }
 
 .solutions__desc-title {
+  height: 168px;
   font-size: 58px;
   font-weight: 700;
   background: var(--gradient);
